@@ -19,7 +19,7 @@ When we try to import it in ie11 we get a bunch of syntax errors because the shi
 
 A simple workaround (what i did in this repo) is to compile the shim to  es5 and add it in addition of the es6 version (first es6 then es5 to ommit errors).
 
-This isn't the cleanest solution, but at least it works like this.
+This isn't the cleanest solution, but at least it works.
 
 I created this repo as answer to [this](http://stackoverflow.com/questions/43427281/custom-elements-v1-in-ecmascript-5-failing-under-ie11/43451866?noredirect=1#comment74043860_43451866) SO question.
 Hopefully it will help some of you guys out.
